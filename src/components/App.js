@@ -141,7 +141,7 @@ const makeDataBiggerObject = (nrOfProjects, importedPic, tag) => {
 };
 
 
-makeDataBiggerObject(12, images20Big, "2020");
+makeDataBiggerObject(17, images20Big, "2020");
 makeDataBiggerObject(17, images19Big, "2019");
 makeDataBiggerObject(20, images1318Big, "2013-2018");
 makeDataBiggerObject(21, images1013Big, "2010-2013");
@@ -149,7 +149,7 @@ makeDataBiggerObject(21, images1013Big, "2010-2013");
 makeDataBiggerObject(34, images1010Big, "2000-2010");
 makeDataBiggerObject(12, images1990, "1990-2000");
 
-makeDataObject(12, images20, "2020");
+makeDataObject(17, images20, "2020");
 makeDataObject(17, images19, "2019");
 makeDataObject(20, images1318, "2013-2018");
 makeDataObject(21, images1013, "2010-2013");

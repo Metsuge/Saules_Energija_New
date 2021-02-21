@@ -22,6 +22,9 @@ const Projects = ({ onObjectClick, listOfObjectsLT, listOfBiggerPics, t, onLoad 
   const [number, setNumber] = useState(0);
   let input = null;
 
+
+  console.log(listOfObjectsLT);
+
   const changeState = () => setTag((objectTag = input));
   //dropdown selection when page is loaded:
   if (objectTag === "all") {
