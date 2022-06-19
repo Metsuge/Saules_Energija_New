@@ -58,6 +58,7 @@
   text-align: center;
   display: flex;
   position: relative;
+  justify-content: center;
 }
 
 .pagrindinis-div {

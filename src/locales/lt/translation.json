@@ -27,479 +27,1059 @@
     "linkToProj": "Visi projektai"
   },
 
-  
-  "listOfObjectsLT": {
+  "test": {
+    "2022": {
+      "id0": {
+        "title": "9.9kW saulės elektrinė. Kauno rajonas",
+        "introtext": ""
+      },
+      "id1": {
+        "title": "25kW saulės elektrinė. Kaunas",
+        "introtext": ""
+      },
+      "id2": {
+        "title": "20kW saulės elektrinė. Molėtų rajonas",
+        "introtext": ""
+      },
+      "id3": {
+        "title": "15.18kW saulės elektrinė. Kauno rajonas",
+        "introtext": ""
+      },
+      "id4": {
+        "title": "10,08kW saulės elektrinė. Prienų rajonas",
+        "introtext": ""
+      },
+      "id5": {
+        "title": "7.92kW saulės elektrinė. Pakruojo rajonas",
+        "introtext": "7.92kW saulės elektrinė. Pakruojo rajonas"
+      },
+      "id6": {
+        "title": "9,9kW saulės elektrinė. Kaunas",
+        "introtext": ""
+      },
+      "id7": {
+        "title": "8,58kW saulės elektrinė Kaunas",
+        "introtext": ""
+      },
+
+      "id8": {
+        "title": "8,25kW saulės elektrinė. Kelmės rajonas",
+        "introtext": ""
+      },
+      "id9": {
+        "title": "9,9kW saulės elektrinė. Trakų rajonas",
+        "introtext": ""
+      },
+      "id10": {
+        "title": "19,8kW saulės elektrinė. Marijampolė",
+        "introtext": ""
+      },
+      "id11": {
+        "title": "18,81kW saulės elektrinė. Kaunas",
+        "introtext": ""
+      },
+      "id12": {
+        "title": "8,91kW saulės elektrinė. Trakai",
+        "introtext": ""
+      },
+      "id13": {
+        "title": "7,92kW saulės elektrinė. Kauno rajonas",
+        "introtext": ""
+      },
+      "id14": {
+        "title": "13,2kW saulės elektrinė. Kaunas",
+        "introtext": ""
+      },
+      "id15": {
+        "title": "15,84kW saulės elektrinė. Kaunas ",
+        "introtext": ""
+      },
+      "id16": {
+        "title": "9.24kW saules elektrinė. Kauno rajonas ",
+        "introtext": ""
+      },
+      "id17": {
+        "title": "30kW saulės elektrinė, Kauno rajonas ",
+        "introtext": ""
+      },
+      "id18": {
+        "title": "30kW saulės elektrinė, Kauno rajonas",
+        "introtext": ""
+      }
+    },
+    "2021": {
+      "id0": {
+        "title": "5kW saulės elektrinė Kaunas",
+        "introtext": ""
+      },
+      "id1": {
+        "title": "8,25kW saulės elektrinė, Kelmės raj.",
+        "introtext": ""
+      },
+      "id2": {
+        "title": "15kW saulės elektrinė Kauno raj.",
+        "introtext": ""
+      },
+      "id3": {
+        "title": "15kW saulės elektrinė Kauno raj.",
+        "introtext": ""
+      },
+      "id4": {
+        "title": "12,3kW saulės elektrinė Šakių raj.",
+        "introtext": ""
+      }
+    },
+    "2020": {
+      "id0": {
+        "title": "15kW saulės elektrinė. Nida",
+        "introtext": ""
+      },
+      "id1": {
+        "title": "Lentvaris 14kW saulės elektrinė",
+        "introtext": ""
+      },
+      "id2": {
+        "title": "6,6kW saulės elektrinė Anykščių raj.",
+        "introtext": ""
+      },
+      "id3": {
+        "title": "10kW saulės elektrinė. Rumšiškės",
+        "introtext": ""
+      },
+      "id4": {
+        "title": "30kW saulės elektrinė. Seredžius",
+        "introtext": ""
+      },
+      "id5": {
+        "title": "7,92kW saulės elektrinė, Jonavos raj.",
+        "introtext": ""
+      },
+      "id6": {
+        "title": "9,1kW saulės elektrinė. Alytus",
+        "introtext": ""
+      },
+      "id7": {
+        "title": "11,52kW saulės elektrinė. Alytus",
+        "introtext": ""
+      },
+      "id8": {
+        "title": "41kW saulės elektrinė, Vilnius",
+        "introtext": ""
+      },
+      "id9": {
+        "title": "8,64kW saulės elektrinė, Kaunas",
+        "introtext": ""
+      },
+      "id10": {
+        "title": "10,24kW saulės elektrinė, Utena",
+        "introtext": ""
+      },
+      "id11": {
+        "title": "10,24kW saulės elektrinė, Kaunas",
+        "introtext": ""
+      },
+      "id12": {
+        "title": "14,57kW saulės elektrinė, Rozalimas",
+        "introtext": ""
+      },
+      "id13": {
+        "title": "9,92kW saulės elektrinė, Kaunas",
+        "introtext": ""
+      }
+    },
+    "2019": {
+      "id0": {
+        "title": "11,655kW saulės elektrinė, Kauno rajonas",
+        "introtext": ""
+      },
+      "id1": {
+        "title": "4,93kW saulės elektrinė, Jonavos rajonas",
+        "introtext": ""
+      },
+      "id2": {
+        "title": "14,49kW saulės elektrinė, Kauno rajonas",
+        "introtext": ""
+      },
+      "id3": {
+        "title": "14,49kW saulės elektrinė, Kauno rajonas",
+        "introtext": ""
+      },
+      "id4": {
+        "title": "9,765kW saulės elektrinė, Kauno rajonas",
+        "introtext": ""
+      },
+      "id5": {
+        "title": "14,49kW saulės elektrinė, Kauno rajonas",
+        "introtext": ""
+      },
+      "id6": {
+        "title": "9,135kW saulės elektrinė, Kauno rajonas",
+        "introtext": ""
+      },
+      "id7": {
+        "title": "3kW saulės elektrinė, Jonava",
+        "introtext": ""
+      },
+      "id8": {
+        "title": "6,195 saulės elektrinė, Marijampolė",
+        "introtext": ""
+      },
+      "id9": {
+        "title": "9,44kW saulės elektrinė, Pakruojis",
+        "introtext": ""
+      },
+      "id10": {
+        "title": "9,735 saulės elektrinė, Kauno rajonas",
+        "introtext": ""
+      },
+      "id11": {
+        "title": "9,735 saulės elektrinė, Jonavos rajonas",
+        "introtext": ""
+      },
+      "id12": {
+        "title": "7,02kW saulės elektrinė, Kaunas",
+        "introtext": ""
+      },
+      "id13": {
+        "title": "8,175kW saulės elektrinė, Kaunas",
+        "introtext": ""
+      },
+      "id14": {
+        "title": "6,93kW saulės elektrinė, Kaunas",
+        "introtext": ""
+      },
+      "id15": {
+        "title": "13,545 saulės elektrinė, Švenčionių rajonas",
+        "introtext": ""
+      },
+      "id16": {
+        "title": "7,245kW saulės elektrinė, Panevėžys",
+        "introtext": ""
+      }
+    },
+    "2013-2018": {
+      "id0": {
+        "title": "10,03kW saulės elektrinė, Kretingos rajonas",
+        "introtext": ""
+      },
+      "id1": {
+        "title": "10,62kW saulės elektrinė, Kalvarijos rajonas",
+        "introtext": ""
+      },
+      "id2": {
+        "title": "10,335kW saulės elektrinė, Kaunas",
+        "introtext": ""
+      },
+      "id3": {
+        "title": "7,56kW saulės elektrinė, Kaunas",
+        "introtext": ""
+      },
+      "id4": {
+        "title": "5,4kW saulės elektrinė, Kaunas",
+        "introtext": ""
+      },
+      "id5": {
+        "title": "4,86kW saulės elektrinė, Rumšiškės",
+        "introtext": ""
+      },
+      "id6": {
+        "title": "9,75kW saulės elektrinė, Pakruojis",
+        "introtext": ""
+      },
+      "id7": {
+        "title": "9,18kW saulės elektrinė, Pakruojis",
+        "introtext": ""
+      },
+      "id8": {
+        "title": "5,94kW saulės elektrinė, Trakų rajonas",
+        "introtext": ""
+      },
+      "id9": {
+        "title": "9,95kW saulės elektrinė, Marijampolės rajonas",
+        "introtext": ""
+      },
+      "id10": {
+        "title": "13,2kW saulės elektrinė, Vilniaus rajonas",
+        "introtext": ""
+      },
+      "id11": {
+        "title": "10,26kW saulės elektrinė, Vilnius",
+        "introtext": ""
+      },
+      "id12": {
+        "title": "10kW saulės elektrinė, Kauno rajonas",
+        "introtext": ""
+      },
+      "id13": {
+        "title": "9,57kW saulės elektrinė, Seredžius",
+        "introtext": ""
+      },
+      "id14": {
+        "title": "9,86kW saulės elektrinė, Švenčionių rajonas",
+        "introtext": ""
+      },
+      "id15": {
+        "title": "5MW saulės elektrinės perdislokavimas. Bobotz, Vokietija",
+        "introtext": ""
+      },
+      "id16": {
+        "title": "235kW saulės elektrinė, Stassfurt, Vokietija",
+        "introtext": ""
+      },
+      "id17": {
+        "title": "200kW saulės elektrinė, Hecklingen, Vokietija",
+        "introtext": ""
+      },
+      "id18": {
+        "title": "250kW saulės elektrinė, Gansefuhrt, Vokietija",
+        "introtext": ""
+      },
+      "id19": {
+        "title": "5,31kW saulės elektrinė, Kaunas",
+        "introtext": ""
+      }
+    },
+    "2010-2013": {
+      "id0": {
+        "title": "30kW saulės elektrinė, Mažeikių rajonas",
+        "introtext": ""
+      },
+      "id1": {
+        "title": "30kW saulės elektrinė, Telšių rajonas",
+        "introtext": ""
+      },
+      "id2": {
+        "title": "10,335kW saulės elektrinė, Kaunas",
+        "introtext": ""
+      },
+      "id3": {
+        "title": "7,56kW saulės elektrinė, Kaunas",
+        "introtext": ""
+      },
+      "id4": {
+        "title": "5,4kW saulės elektrinė, Kaunas",
+        "introtext": ""
+      },
+      "id5": {
+        "title": "4,86kW saulės elektrinė, Rumšiškės",
+        "introtext": ""
+      },
+      "id6": {
+        "title": "9,75kW saulės elektrinė, Pakruojis",
+        "introtext": ""
+      },
+      "id7": {
+        "title": "9,18kW saulės elektrinė, Pakruojis",
+        "introtext": ""
+      },
+      "id8": {
+        "title": "5,94kW saulės elektrinė, Trakų rajonas",
+        "introtext": ""
+      },
+      "id9": {
+        "title": "9,95kW saulės elektrinė, Marijampolės rajonas",
+        "introtext": ""
+      },
+      "id10": {
+        "title": "13,2kW saulės elektrinė, Vilniaus rajonas",
+        "introtext": ""
+      },
+      "id11": {
+        "title": "10,26kW saulės elektrinė, Vilnius",
+        "introtext": ""
+      },
+      "id12": {
+        "title": "10kW saulės elektrinė, Kauno rajonas",
+        "introtext": ""
+      },
+      "id13": {
+        "title": "9,57kW saulės elektrinė, Seredžius",
+        "introtext": ""
+      },
+      "id14": {
+        "title": "9,86kW saulės elektrinė, Švenčionių rajonas",
+        "introtext": ""
+      },
+      "id15": {
+        "title": "5MW saulės elektrinės perdislokavimas. Bobotz, Vokietija",
+        "introtext": ""
+      },
+      "id16": {
+        "title": "235kW saulės elektrinė, Stassfurt, Vokietija",
+        "introtext": ""
+      },
+      "id17": {
+        "title": "200kW saulės elektrinė, Hecklingen, Vokietija",
+        "introtext": ""
+      },
+      "id18": {
+        "title": "250kW saulės elektrinė, Gansefuhrt, Vokietija",
+        "introtext": ""
+      },
+      "id19": {
+        "title": "5,31kW saulės elektrinė, Kaunas",
+        "introtext": ""
+      }
+    },
+    "2000-2010": {
+      "id0": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id1": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id2": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id3": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id4": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id5": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id6": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id7": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id8": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id9": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id10": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id11": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id12": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id13": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id14": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id15": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id16": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id17": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id18": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id19": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id20": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id21": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id22": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id23": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id24": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id25": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id26": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id27": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id28": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id29": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id30": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id31": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id32": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id33": {
+        "title": "Mini",
+        "introtext": ""
+      }
+    },
+    "1990-2000": {
+      "id0": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id1": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id2": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id3": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id4": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id5": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id6": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id7": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id8": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id9": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id10": {
+        "title": "Mini",
+        "introtext": ""
+      },
+      "id11": {
+        "title": "Mini",
+        "introtext": ""
+      }
+    },
+
     "id0": {
-      "title": "10kW saulės elektrinė. Rumšiškės",
+      "title": "5kW saulės elektrinė Kaunas",
       "introtext": ""
     },
     "id1": {
-      "title": "30kW saulės elektrinė. Seredžius",
+      "title": " id 1// 8,25kW saulės elektrinė, Kelmės raj.",
       "introtext": ""
     },
     "id2": {
-      "title": "7,92kW saulės elektrinė, Jonavos raj.",
+      "title": "15kW saulės elektrinė Kauno raj.",
       "introtext": ""
     },
     "id3": {
-      "title": "9,1kW saulės elektrinė. Alytus",
+      "title": "15kW saulės elektrinė Kauno raj.",
       "introtext": ""
     },
     "id4": {
+      "title": "12,3kW saulės elektrinė Šakių raj.",
+      "introtext": ""
+    },
+    "id5": {
+      "title": "15kW saulės elektrinė. Nida",
+      "introtext": ""
+    },
+    "id6": {
+      "title": "Lentvaris 14kW saulės elektrinė",
+      "introtext": ""
+    },
+    "id7": {
+      "title": "6,6kW saulės elektrinė Anykščių raj.",
+      "introtext": ""
+    },
+    "id8": {
+      "title": "10kW saulės elektrinė. Rumšiškės",
+      "introtext": ""
+    },
+    "id9": {
+      "title": "30kW saulės elektrinė. Seredžius",
+      "introtext": ""
+    },
+    "id10": {
+      "title": "7,92kW saulės elektrinė, Jonavos raj.",
+      "introtext": ""
+    },
+    "id11": {
+      "title": "9,1kW saulės elektrinė. Alytus",
+      "introtext": ""
+    },
+    "id12": {
       "title": "11,52kW saulės elektrinė. Alytus",
       "introtext": ""
     },
-
-    "id5": {
+    "id13": {
       "title": "41kW saulės elektrinė, Vilnius",
       "introtext": "20 kW solar power plant, Vilnius"
     },
-    "id6": {
+    "id14": {
       "title": "8,64kW saulės elektrinė, Kaunas",
       "introtext": "8,64kW solar power plant, Kaunas"
     },
-    "id7": {
+    "id15": {
       "title": "10,24kW saulės elektrinė, Utena",
       "introtext": "10,24kW solar power plant, Utena"
     },
-    "id8": {
+    "id16": {
       "title": "10,24kW saulės elektrinė, Kaunas",
       "introtext": "10,24kW solar power plant, Kaunas"
     },
-    "id9": {
+    "id17": {
       "title": "14,57kW saulės elektrinė, Rozalimas",
       "introtext": "14,57kW solar power plant, Rozalimas"
     },
-    "id10": {
+    "id18": {
       "title": "9,92kW saulės elektrinė, Kaunas",
       "introtext": "14,57kW solar power plant, Rozalimas"
     },
-    "id11": {
+    "id19": {
       "title": "10,24kW saulės elektrinė, Šakiai",
       "introtext": "10,24kW solar power plant, Šakiai"
     },
-    "id12": {
+    "id20": {
       "title": "6,4kW saulės elektrinė, Paruojo rajonas",
       "introtext": "6,4kW solar power plant, Paruojis"
-    }
-    ,"id13": {
+    },
+    "id21": {
       "title": "10,24kW saulės elektrinė, Kaišiadoriai",
       "introtext": "10,24kW solar power plant, Kaišiadoriai"
     },
-    "id14": {
+    "id22": {
       "title": "9,9kW saulės elektrinė, Trakų rajonas",
       "introtext": "9,9kW solar power plant, Trakai"
     },
-    "id15": {
+    "id23": {
       "title": "4,8kW saulės elektrinė, Prienų rajonas",
       "introtext": "4,8kW solar power plant, Prienai"
     },
-    "id16": { 
+    "id24": {
       "title": "30kW saulės elektrinė, Ignalinos rajonas",
       "introtext": "11,655kW solar power plant, Kaunas"
     },
-    "id17": {
+    "id25": {
       "title": "11,655kW saulės elektrinė, Kaunas",
       "introtext": ""
     },
-    "id18": {
+    "id26": {
       "title": "4,93kW saulės elektrinė, Jonavos rajonas",
       "introtext": ""
     },
-    "id19": {
+    "id27": {
       "title": "14,49kW saulės elektrinė, Kauno rajonas",
       "introtext": ""
     },
-    "id20": {
+    "id28": {
       "title": "14,49kW saulės elektrinė, Kauno rajonas",
       "introtext": ""
     },
-    "id21": {
+    "id29": {
       "title": "9,765kW saulės elektrinė, Kauno rajonas",
       "introtext": "9,765kW solar power plant, Kaunas"
     },
-    "id22": {
+    "id30": {
       "title": "14,49kW saulės elektrinė, Kauno rajonas",
       "introtext": "14,49kW solar power plant, Kaunas"
     },
-    "id23": {
+    "id31": {
       "title": "9,135kW saulės elektrinė, Kauno rajonas",
       "introtext": "9,135kW solar power plant, Kaunas"
     },
-    "id24": {
+    "id32": {
       "title": "3kW saulės elektrinė, Jonava",
       "introtext": "3kW solar power plant, Jonava"
     },
-    "id25": {
+    "id33": {
       "title": "6,195 saulės elektrinė, Marijampolė",
       "introtext": "6,195 solar power plant, Marijampolė"
     },
-    "id26": {
+    "id34": {
       "title": "9,44kW saulės elektrinė, Pakruojis",
       "introtext": "9,44kW solar power plant, Pakruojis"
     },
-    "id27": {
+    "id35": {
       "title": "9,735 saulės elektrinė, Kauno rajonas",
       "introtext": "9,735 solar power plant, Kaunas"
     },
-    "id28": {
+    "id36": {
       "title": "9,735 saulės elektrinė, Jonavos rajonas",
       "introtext": "9,735 solar power plant, Jonava"
     },
-    "id29": {
+    "id37": {
       "title": "7,02kW saulės elektrinė, Kaunas",
       "introtext": "7,02kW solar power plant, Kaunas"
     },
-    "id30": {
+    "id38": {
       "title": "8,175kW saulės elektrinė, Kaunas",
       "introtext": "8,175kW solar power plant, Kaunas"
     },
-    "id31": {
+    "id39": {
       "title": "6,93kW saulės elektrinė, Kaunas",
       "introtext": "6,93kW solar power plant, Kaunas"
     },
-    "id32": {
+    "id40": {
       "title": "13,545 saulės elektrinė, Švenčionių rajonas",
       "introtext": "13,545 solar power plant, Švenčioniai"
     },
-    "id33": {
+    "id41": {
       "title": "7,245kW saulės elektrinė, Panevėžys",
       "introtext": "10,03kW saulės elektrinė, Kretingos rajonas"
     },
-    "id34": {
+    "id42": {
       "title": "10,03kW saulės elektrinė, Kretingos rajonas",
       "introtext": "10,03kW saulės elektrinė, Kretingos rajonas"
     },
-    "id35": {
+    "id43": {
       "title": "10,62kW saulės elektrinė, Kalvarijos rajonas",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
-    "id36": {
+    "id44": {
       "title": "10,335kW saulės elektrinė, Kaunas",
       "introtext": "10,335kW saulės elektrinė, Kaunas"
     },
-    "id37": {
+    "id45": {
       "title": "7,56kW saulės elektrinė, Kaunas",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
-    "id38": {
+    "id46": {
       "title": "5,4kW saulės elektrinė, Kaunas",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
-    "id39": {
+    "id47": {
       "title": "4,86kW saulės elektrinė, Rumšiškės",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
-    "id40": {
+    "id48": {
       "title": "9,75kW saulės elektrinė, Pakruojis",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
-    "id41": {
+    "id49": {
       "title": "9,18kW saulės elektrinė, Pakruojis",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
-    "id42": {
+    "id50": {
       "title": "5,94kW saulės elektrinė, Trakų rajonas",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
-    "id43": {
+    "id51": {
       "title": "9,95kW saulės elektrinė, Marijampolės rajonas",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
-    "id44": {
+    "id52": {
       "title": "13,2kW saulės elektrinė, Vilniaus rajonas",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
-    "id45": {
+    "id53": {
       "title": "10,26kW saulės elektrinė, Vilnius",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
-    "id46": {
+    "id54": {
       "title": "10kW saulės elektrinė, Kauno rajonas",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
-    "id47": {
+    "id55": {
       "title": "9,57kW saulės elektrinė, Seredžius",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
-    "id48": {
+    "id56": {
       "title": "9,86kW saulės elektrinė, Švenčionių rajonas",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
-    "id49": {
+    "id57": {
       "title": "5MW saulės elektrinės perdislokavimas. Bobotz, Vokietija.",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
-    "id50": {
+    "id58": {
       "title": "235kW saulės elektrinė, Stassfurt, Vokietija",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
-    "id51": {
+    "id59": {
       "title": "200kW saulės elektrinė, Hecklingen, Vokietija",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
-    "id52": {
+    "id60": {
       "title": "250kW saulės elektrinė, Gansefuhrt, Vokietija",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
-    "id53": {
+    "id61": {
       "title": "5,31kW saulės elektrinė, Kaunas",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
-    "id54": {
+    "id62": {
       "title": "30kW saulės elektrinė, Mažeikių rajonas",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
-    "id55": {
+    "id63": {
       "title": "30kW saulės elektrinė, Telšių rajonas",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
-    "id56": {
+    "id64": {
       "title": "30 kW saulės elektrinė, Kaunas.",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
-    "id57": {
-      "title": "30kW saulės elektrinė, Kauno rajonas",
-      "introtext": "7,245kW solar power plant, Panevėžys"
-    },
-    "id58": {
-      "title": "30kW saulės elektrinė, Kauno rajonas",
-      "introtext": "7,245kW solar power plant, Panevėžys"
-    },
-    "id59": {
-      "title": "20kW saulės elektrinė, Kaunas",
-      "introtext": "7,245kW solar power plant, Panevėžys"
-    },
-    "id60": {
-      "title": "26kW saulės elektrinė, Biržų rajonas",
-      "introtext": "7,245kW solar power plant, Panevėžys"
-    },
-    "id61": {
-      "title": "2x30kW saulės elektrinės, Kauno rajonas",
-      "introtext": "7,245kW solar power plant, Panevėžys"
-    },
-    "id62": {
-      "title": "30kW saulės elektrinė, Kauno rajonas",
-      "introtext": "7,245kW solar power plant, Panevėžys"
-    },
-    "id63": {
-      "title": "30kW saulės elektrinė, Klaipeda",
-      "introtext": "7,245kW solar power plant, Panevėžys"
-    },
-    "id64": {
-      "title": "30kW saulės elektrinė, Kaunas",
-      "introtext": "7,245kW solar power plant, Panevėžys"
-    },
     "id65": {
-      "title": "26kW saulės elektrinė, Pakruojo rajonas",
+      "title": "30kW saulės elektrinė, Kauno rajonas",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
     "id66": {
-      "title": "30kW saulės elektrinė, Pakruojis",
+      "title": "30kW saulės elektrinė, Kauno rajonas",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
     "id67": {
-      "title": "30kW saulės elektrinė, Zarasų rajonas",
+      "title": "20kW saulės elektrinė, Kaunas",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
     "id68": {
-      "title": "30kW saulės elektrinė, Kaunas",
+      "title": "26kW saulės elektrinė, Biržų rajonas",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
     "id69": {
-      "title": "60kW saulės elektrinė, Kaunas",
+      "title": "2x30kW saulės elektrinės, Kauno rajonas",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
     "id70": {
-      "title": "30kW saulės elektrinė, Pakruojo rajonas",
+      "title": "30kW saulės elektrinė, Kauno rajonas",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
     "id71": {
-      "title": "90kW saulės elektrinė, Kauno rajonas",
+      "title": "30kW saulės elektrinė, Klaipeda",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
     "id72": {
-      "title": "30kW saulės elektrinė, Kintai",
+      "title": "30kW saulės elektrinė, Kaunas",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
     "id73": {
-      "title": "30kW saulės elektrinė Panevėžio rajonas",
+      "title": "26kW saulės elektrinė, Pakruojo rajonas",
       "introtext": "7,245kW solar power plant, Panevėžys"
     },
     "id74": {
+      "title": "30kW saulės elektrinė, Pakruojis",
+      "introtext": "7,245kW solar power plant, Panevėžys"
+    },
+    "id75": {
+      "title": "30kW saulės elektrinė, Zarasų rajonas",
+      "introtext": "7,245kW solar power plant, Panevėžys"
+    },
+    "id76": {
+      "title": "30kW saulės elektrinė, Kaunas",
+      "introtext": "7,245kW solar power plant, Panevėžys"
+    },
+    "id77": {
+      "title": "60kW saulės elektrinė, Kaunas",
+      "introtext": "7,245kW solar power plant, Panevėžys"
+    },
+    "id78": {
+      "title": "30kW saulės elektrinė, Pakruojo rajonas",
+      "introtext": "7,245kW solar power plant, Panevėžys"
+    },
+    "id79": {
+      "title": "90kW saulės elektrinė, Kauno rajonas",
+      "introtext": "7,245kW solar power plant, Panevėžys"
+    },
+    "id80": {
+      "title": "30kW saulės elektrinė, Kintai",
+      "introtext": "7,245kW solar power plant, Panevėžys"
+    },
+    "id81": {
+      "title": "30kW saulės elektrinė Panevėžio rajonas",
+      "introtext": "7,245kW solar power plant, Panevėžys"
+    },
+    "id82": {
       "title": "10kW saulės elektrinė Vilniaus rajonas",
       "introtext": "2010-2013 baigesi"
     },
-    "id75": {
+    "id83": {
       "title": "3,16kW saulės-vėjo mikroelektrinė ir saulės kolektoriai, Kaunas",
       "introtext": "autonomines 2000-2010 baigesi"
     },
-    "id76": {
+    "id84": {
       "title": "1,1kW saulės mikroelektrinė, Vilnius",
       "introtext": ""
     },
-    "id77": {
+    "id85": {
       "title": " Saulės mikroelektrinės 1,0kW inverteris ir 14,5kWh akumuliatoriai, Molėtų rajonas.",
       "introtext": ""
     },
-    "id78": {
+    "id86": {
       "title": "6,5kW saulės-vėjo jėgainė, Kauno rajonas",
       "introtext": ""
     },
-    "id79": {
+    "id87": {
       "title": "3,5kW Saulės-vėjo elektrinė, Klaipėda",
       "introtext": ""
     },
-    "id80": {
+    "id88": {
       "title": "9kW Saulės-vėjo elektrinė, Vilniaus rajonas",
       "introtext": ""
     },
-    "id81": {
+    "id89": {
       "title": "3,6kW Saulės-vėjo elektrinė, Elektrėnai",
       "introtext": ""
     },
-    "id82": {
+    "id90": {
       "title": "8kW Saulės-vėjo elektrinė, Ikskile Latvija",
       "introtext": ""
     },
-    "id83": {
+    "id91": {
       "title": "5,2kW Saulės-vėjo elektrinė, Šilalės rajonas",
       "introtext": ""
     },
-    "id84": {
+    "id92": {
       "title": "15kW maitinimo blokas, Vilniaus rajonas",
       "introtext": ""
     },
-    "id85": {
+    "id93": {
       "title": "11,5kW Saulės-vėjo elektrinė, Kretingos rajonas",
       "introtext": ""
     },
-    "id86": {
+    "id94": {
       "title": "18kW Saulės-vėjo elektrinė, Kauno rajonas",
       "introtext": ""
     },
-    "id87": {
+    "id95": {
       "title": "2,5kW saulės mikroelektrinė, Vilnius",
       "introtext": ""
     },
-    "id88": {
+    "id96": {
       "title": "3kW Saulės-vėjo elektrinė, Kauno rajonas",
       "introtext": "autonomines 2000-2010 baigesi"
     },
-    "id89": {
+    "id97": {
       "title": "240W Vėjo jėgainė Alantos TVM",
       "introtext": "demonstracines 2000-2010 prasideda"
     },
-    "id90": {
+    "id98": {
       "title": "200W PV moduliai ir saulės kolektoriai Alantos technologijų ir verslo mokykloje.",
       "introtext": ""
     },
-    "id91": {
+    "id99": {
       "title": "600W galios saulės mikroelektrinė Vilniaus Gedimino technikos universitete",
       "introtext": ""
     },
-    "id92": {
+    "id100": {
       "title": "900 W ir 120W galios vėjo mikroelektrinės VGTU",
       "introtext": ""
     },
-    "id93": {
+    "id101": {
       "title": "Saulės (54W) ir vėjo (25W) mikroelektrinė Panevėžio gamtos mokykloje",
       "introtext": ""
     },
-    "id94": {
+    "id102": {
       "title": "Laboratorinis fotoelektrinių modulių charakteristikų tyrimo stendas",
       "introtext": ""
     },
-    "id95": {
+    "id103": {
       "title": "Saulės (2,7 kW) ir vėjo (3,2kW) mikroelektrinė bei 16 kv.m saulės kolektoriai Lietuvos energetikos muziejuje.",
       "introtext": ""
     },
-    "id96": {
+    "id104": {
       "title": "3,2kW vėjo jėgainė Lietuvos energetikos muziejuje.",
       "introtext": ""
     },
-    "id97": {
+    "id105": {
       "title": "Saulės-vėjo mikroelektrinės 12kW inverterių blokas Lietuvos energetikos muziejuje.",
       "introtext": ""
     },
-    "id98": {
+    "id106": {
       "title": "Saulės-vėjo mikroelektrinės 36kWh akumuliatorių baterija Lietuvos energetikos muziejuje",
       "introtext": ""
     },
-    "id99": {
+    "id107": {
       "title": "3,0kW galios saulės mikroelektrinė ir saulės kolektoriai Kaune",
       "introtext": ""
     },
-    "id100": {
+    "id108": {
       "title": "2,5kW vėjo jėgainė Kaune",
       "introtext": ""
     },
-    "id101": {
+    "id109": {
       "title": "Saulės-vėjo mikroelektrinės 12kW inverterių ir 48kWh akumuliatorių blokas Kaune",
       "introtext": ""
     },
-    "id102": {
+    "id110": {
       "title": "Saulės (300W) ir vėjo (120 W) mikroelektrinė įrengta KTU",
       "introtext": "demonstracinės baigesi 2000-2010"
     },
-    "id103": {
+    "id111": {
       "title": "240W saulės mikroelektrinė magistraliniame dujotiekyje",
       "introtext": "techninis taikymas 2000-2010 prasideda"
     },
-    "id104": {
-      "title": "Saulės (120W) - vėjo (100W) mikroelektrinė magistraliniame dujotiekyje",
-      "introtext": ""
-    },
-    "id105": {
-      "title": "240W saulės mikroelektrinė magistraliniame dujotiekyje",
-      "introtext": ""
-    },
-    "id106": {
-      "title": "360W saulės mikroelektrinė magistraliniame dujotiekyje",
-      "introtext": ""
-    },
-    "id107": {
-      "title": "Saulės (120W) - vėjo (100W) mikroelektrinė magistraliniame dujotiekyje",
-      "introtext": ""
-    },
-    "id108": {
-      "title": "Saulės (240W) - vėjo (100W) mikroelektrinė magistraliniame dujotiekyje",
-      "introtext": ""
-    },
-    "id109": {
-      "title": "Autokelių monitoringo postas su 56W saulės mikroelektrine",
-      "introtext": ""
-    },
-    "id110": {
-      "title": "Mini",
-      "introtext": ""
-    },
-    "id111": {
-      "title": "Mini",
-      "introtext": ""
-    },
     "id112": {
-      "title": "Mini",
+      "title": "Saulės (120W) - vėjo (100W) mikroelektrinė magistraliniame dujotiekyje",
       "introtext": ""
     },
     "id113": {
-      "title": "Mini",
+      "title": "240W saulės mikroelektrinė magistraliniame dujotiekyje",
       "introtext": ""
     },
     "id114": {
-      "title": "Mini",
+      "title": "360W saulės mikroelektrinė magistraliniame dujotiekyje",
       "introtext": ""
     },
     "id115": {
-      "title": "Mini",
+      "title": "Saulės (120W) - vėjo (100W) mikroelektrinė magistraliniame dujotiekyje",
       "introtext": ""
     },
     "id116": {
-      "title": "Mini",
+      "title": "Saulės (240W) - vėjo (100W) mikroelektrinė magistraliniame dujotiekyje",
       "introtext": ""
     },
     "id117": {
-      "title": "Mini",
+      "title": "Autokelių monitoringo postas su 56W saulės mikroelektrine",
       "introtext": ""
     },
     "id118": {
@@ -516,6 +1096,42 @@
     },
     "id121": {
       "title": "Mini",
+      "introtext": ""
+    },
+    "id122": {
+      "title": "Mini",
+      "introtext": ""
+    },
+    "id123": {
+      "title": "Mini",
+      "introtext": ""
+    },
+    "id124": {
+      "title": "Mini",
+      "introtext": ""
+    },
+    "id125": {
+      "title": "Mini",
+      "introtext": ""
+    },
+    "id126": {
+      "title": "Mini",
+      "introtext": ""
+    },
+    "id127": {
+      "title": "Mini",
+      "introtext": ""
+    },
+    "id128": {
+      "title": "128// 8,25kW saulės elektrinė, Kelmės raj.",
+      "introtext": ""
+    },
+    "id129": {
+      "title": "Mini",
+      "introtext": ""
+    },
+    "id130": {
+      "title": "Paskutinis",
       "introtext": ""
     }
   },

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, Suspense } from "react";
 import SuspenseImg from "../Additional/SuspenseImg";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { withTranslation } from "react-i18next";
 import './modal.css';
 
@@ -13,17 +13,16 @@ import "../buttons.css";
 // import { logDOM } from "@testing-library/react";
 let selectedList = [];
 
-const Projects = ({ onObjectClick, listOfObjectsLT, listOfBiggerPics, t, onLoad }) => {
+const Projects = ({ onObjectClick, listOfObjectsLT, listOfBiggerPics, t, onLoad, clickeddiv, test }) => {
   let [objectTag, setTag] = useState("all");
   let [projectList, setprojectList] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(12); //12 projects per page
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [number, setNumber] = useState(0);
+  const [year, setYear] = useState('2022');
+  const [idTotal, setId] = useState(0);
   let input = null;
-
-
-  console.log(listOfObjectsLT);
 
   const changeState = () => setTag((objectTag = input));
   //dropdown selection when page is loaded:
@@ -31,14 +30,9 @@ const Projects = ({ onObjectClick, listOfObjectsLT, listOfBiggerPics, t, onLoad 
     selectedList = projectList;
   }
 
- 
   useEffect(() => {
     setprojectList(listOfObjectsLT);
-    
-
   }, [objectTag]);
-
- 
 
   const ObjectsToRender = () => {
     selectedList = []; //list of objects to be rendered
@@ -61,9 +55,11 @@ const Projects = ({ onObjectClick, listOfObjectsLT, listOfBiggerPics, t, onLoad 
   };
 
   const clickProject =(id)=>{
+    setYear(id.tag);
+    setId(id.idTotal);
     onObjectClick(id);
     setModalIsOpen(true);
-    setNumber(id);
+    setNumber(id.id);
   }
 
   const indexLastPost = currentPage * postsPerPage;
@@ -87,6 +83,8 @@ const Projects = ({ onObjectClick, listOfObjectsLT, listOfBiggerPics, t, onLoad 
                 <option className="select-option" value="all">
                   All
                 </option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
                 <option value="2020">2020</option>
                 <option value="2019">2019</option>
                 <option value="2013-2018">2013-2018</option>
@@ -106,7 +104,7 @@ const Projects = ({ onObjectClick, listOfObjectsLT, listOfBiggerPics, t, onLoad 
                 <div className='close-button-div'>
                   <button className="button" onClick={() => {setModalIsOpen(false)}}>Close</button>
                 </div>
-                 <ModalComponent t={t} isOpen={modalIsOpen} number={number} listOfBiggerPics={listOfBiggerPics} ></ModalComponent>
+                 <ModalComponent t={t} isOpen={modalIsOpen} number={number} listOfBiggerPics={listOfBiggerPics} year={year} idTotal={idTotal}></ModalComponent>
                 
                 </Modal>
               </div>
@@ -116,7 +114,7 @@ const Projects = ({ onObjectClick, listOfObjectsLT, listOfBiggerPics, t, onLoad 
                   <>
                     <div
                       id="projectImg"
-                      onClick={()=>clickProject(oneObject.id)}
+                      onClick={()=>clickProject(oneObject)}
                       className="each-img"
                       >
                       <SuspenseImg src={oneObject.src} />

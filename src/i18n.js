@@ -29,7 +29,7 @@ i18n
     lng: "lt",
     fallbackLng: "lt",
     keySeparator: ".",
-    debug: true,
+    debug: false,
     interpolation: {
       escapeValue: false
     }

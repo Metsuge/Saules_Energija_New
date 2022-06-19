@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import React, { Component, useState } from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { withTranslation } from "react-i18next";
 
 //STYLES
@@ -22,6 +22,8 @@ import Contacts from "./Contacts/Contacts";
 import Projects from "./Projects/Projects";
 import AnObject from "./AnObject/AnObject";
 
+let id = 0;
+
 const onLoad = () => {
   window.scroll(0, 0);
   // document.getElementById('nav').classList.remove("open");
@@ -30,6 +32,14 @@ const onLoad = () => {
 function importAll(r) {
   return r.keys().map(r);
 }
+
+// const images22Big = importAll(
+//   require.context("../images/2022Big/", false, /\.(png|jpe?g|svg|JPG)$/)
+// );
+
+const images21Big = importAll(
+  require.context("../images/2021Big/", false, /\.(png|jpe?g|svg|JPG)$/)
+);
 
 const images20Big = importAll(
   require.context("../images/2020Big/", false, /\.(png|jpe?g|svg|JPG)$/)
@@ -52,6 +62,15 @@ const images1010Big = importAll(
 );
 
 //___________________________________________________________
+
+const images22 = importAll(
+  require.context("../images/2022/", false, /\.(png|jpe?g|svg|JPG)$/)
+);
+
+const images21 = importAll(
+  require.context("../images/2021Big/", false, /\.(png|jpe?g|svg|JPG)$/)
+);
+
 const images20 = importAll(
   require.context("../images/2020/", false, /\.(png|jpe?g|svg|JPG)$/)
 );
@@ -100,68 +119,97 @@ const getTheListOfRightPics = (idOfPics, importedPic) => {
 let listOfObjectsLT = [];
 let listOfBiggerPics = [];
 
-let id = 0 
-const generateId = () => {
-  return id++;
-};
-
-let idBig =0;
-const generateBigId = () => {
-  return idBig++;
-};
-
+let idTotal = 0;
+let idTest = 0;
 
 //nrOfProjects - how many projects in the images folder
 //importedPic - variable with imported pics
 //year - year of the projects, used to create tags on each pic
+
+//!!!!--NOTE---!!!
+/* 
+functions getTheRightPic and getTheListOfRightPics gets id that counts nrOfProjects-i
+in the image files, images that are named 1-1 will be shown last in that year list, 
+accordingly, the latest picture addd wil be shown first
+
+*/
 const makeDataObject = (nrOfProjects, importedPic, tag) => {
-  for (let i = 1; i < nrOfProjects + 1; i++) {
+  for (let i = 0; i < nrOfProjects; i++) {
     listOfObjectsLT.push({
-      src: getTheRightPic(i, importedPic),
-      // id: `${i-1}`,
-      id: generateId(),
-      pics: getTheListOfRightPics(i, importedPic),
+      src: getTheRightPic(nrOfProjects - i, importedPic),
+      id: i,
+      pics: getTheListOfRightPics(nrOfProjects - i, importedPic),
       tag: tag,
+      idTotal: idTotal++,
     });
   }
   return listOfObjectsLT;
 };
 
-
+let test = {};
 const makeDataBiggerObject = (nrOfProjects, importedPic, tag) => {
-  for (let i = 1; i < nrOfProjects + 1; i++) {
-    listOfBiggerPics.push({
-      src: getTheRightPic(i, importedPic),
-      id: generateBigId(),
-      pics: getTheListOfRightPics(i, importedPic),
+  test[tag] = [];
+  for (let i = 0; i < nrOfProjects; i++) {
+    test[tag].push({
       tag: tag,
+      "items in this year": nrOfProjects,
+      id: i,
+      src: getTheRightPic(i, importedPic),
+      pics: getTheListOfRightPics(i, importedPic),
+    });
+
+    listOfBiggerPics.push({
+      src: getTheRightPic(nrOfProjects - i, importedPic),
+      id: i,
+      pics: getTheListOfRightPics(nrOfProjects - i, importedPic),
+      tag: tag,
+      idTotal: idTest++,
     });
   }
   return listOfBiggerPics;
 };
 
-
-makeDataBiggerObject(17, images20Big, "2020");
+// makeDataBiggerObject(6, images22Big, "2022");
+makeDataBiggerObject(19, images22, "2022");
+makeDataBiggerObject(5, images21Big, "2021");
+makeDataBiggerObject(20, images20Big, "2020");
 makeDataBiggerObject(17, images19Big, "2019");
 makeDataBiggerObject(20, images1318Big, "2013-2018");
 makeDataBiggerObject(21, images1013Big, "2010-2013");
-
 makeDataBiggerObject(34, images1010Big, "2000-2010");
 makeDataBiggerObject(12, images1990, "1990-2000");
 
-makeDataObject(17, images20, "2020");
+makeDataObject(19, images22, "2022");
+makeDataObject(5, images21, "2021");
+makeDataObject(20, images20, "2020");
 makeDataObject(17, images19, "2019");
 makeDataObject(20, images1318, "2013-2018");
 makeDataObject(21, images1013, "2010-2013");
 makeDataObject(34, images0010, "2000-2010");
 makeDataObject(12, images1990, "1990-2000");
 
+let newKey;
+console.log(listOfBiggerPics);
+//generuoja id, kad veliausias objectas turi paskutini id
+// const renameObjectIds = function(){
+//   for (let i = 0; i < listOfObjectsLT.length ; i++) {
+//       newKey = (listOfObjectsLT.length -i );
+//       if(typeof listOfObjectsLT[i] !== 'undefined'){
+//         listOfObjectsLT[i].id = newKey;
+//         // listOfBiggerPics[i].id = newKey;
+//       }  else {console.log(i);}
+//     }
+//     return listOfObjectsLT;
+// };
+// renameObjectIds();
 
 let clickeddiv = 1;
-
+let year;
 class App extends Component {
   onObjectClick = (clickeddivffromdarbai) => {
-    clickeddiv = clickeddivffromdarbai;
+    clickeddiv = clickeddivffromdarbai.id;
+    year = clickeddivffromdarbai.tag;
+    idTotal = clickeddivffromdarbai.idTotal;
   };
 
   render() {
@@ -180,6 +228,9 @@ class App extends Component {
                   onLoad={onLoad}
                   t={t}
                   listOfObjectsLT={listOfObjectsLT}
+                  number={clickeddiv}
+                  year={year}
+                  idTotal={idTotal}
                 />
               )}
             />
@@ -209,6 +260,7 @@ class App extends Component {
                   listOfObjectsLT={listOfObjectsLT}
                   listOfBiggerPics={listOfBiggerPics}
                   t={t}
+                  test={test}
                 />
               )}
             />

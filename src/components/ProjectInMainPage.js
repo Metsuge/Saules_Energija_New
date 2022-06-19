@@ -86,11 +86,10 @@ const DarbaiLT = ({ onObjectClick, t, listOfObjectsLT, onLoad }) => {
               return (
                 <Link to={`/object/${oneObject.id}`}>
                   <div
-                    onClick={() => onObjectClick(oneObject.id)}
+                    onClick={() => onObjectClick(oneObject)}
                     className="each-img"
                   >
                     <img alt="" className="darbai-img" src={oneObject.src} />
-
                     {/* <div className="text-section">
                       <p className="textonimg">
                         {t(`listOfObjectsLT.id${oneObject.id}.introtext`)}
