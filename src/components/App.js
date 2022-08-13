@@ -1,6 +1,6 @@
-import React, { Component, useState } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { withTranslation } from "react-i18next";
+import React, {Component, useState} from "react";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import {withTranslation} from "react-i18next";
 
 //STYLES
 import "./style.css";
@@ -33,9 +33,9 @@ function importAll(r) {
   return r.keys().map(r);
 }
 
-// const images22Big = importAll(
-//   require.context("../images/2022Big/", false, /\.(png|jpe?g|svg|JPG)$/)
-// );
+const images22_08Big = importAll(
+  require.context("../images/2022.08Big/", false, /\.(png|jpe?g|svg|JPG)$/)
+);
 
 const images21Big = importAll(
   require.context("../images/2021Big/", false, /\.(png|jpe?g|svg|JPG)$/)
@@ -63,21 +63,17 @@ const images1010Big = importAll(
 
 //___________________________________________________________
 
-const images22 = importAll(
-  require.context("../images/2022/", false, /\.(png|jpe?g|svg|JPG)$/)
+const images22_08 = importAll(
+  require.context("../images/2022.08/", false, /\.(png|jpe?g|svg|JPG)$/)
 );
 
-const images21 = importAll(
-  require.context("../images/2021Big/", false, /\.(png|jpe?g|svg|JPG)$/)
-);
+const images22 = importAll(require.context("../images/2022/", false, /\.(png|jpe?g|svg|JPG)$/));
 
-const images20 = importAll(
-  require.context("../images/2020/", false, /\.(png|jpe?g|svg|JPG)$/)
-);
+const images21 = importAll(require.context("../images/2021Big/", false, /\.(png|jpe?g|svg|JPG)$/));
 
-const images19 = importAll(
-  require.context("../images/2019/", false, /\.(png|jpe?g|svg|JPG)$/)
-);
+const images20 = importAll(require.context("../images/2020/", false, /\.(png|jpe?g|svg|JPG)$/));
+
+const images19 = importAll(require.context("../images/2019/", false, /\.(png|jpe?g|svg|JPG)$/));
 
 const images1318 = importAll(
   require.context("../images/2013-2018/", false, /\.(png|jpe?g|svg|JPG)$/)
@@ -169,7 +165,7 @@ const makeDataBiggerObject = (nrOfProjects, importedPic, tag) => {
   return listOfBiggerPics;
 };
 
-// makeDataBiggerObject(6, images22Big, "2022");
+makeDataBiggerObject(6, images22_08Big, "2022");
 makeDataBiggerObject(19, images22, "2022");
 makeDataBiggerObject(5, images21Big, "2021");
 makeDataBiggerObject(20, images20Big, "2020");
@@ -179,6 +175,7 @@ makeDataBiggerObject(21, images1013Big, "2010-2013");
 makeDataBiggerObject(34, images1010Big, "2000-2010");
 makeDataBiggerObject(12, images1990, "1990-2000");
 
+makeDataObject(6, images22_08, "2022");
 makeDataObject(19, images22, "2022");
 makeDataObject(5, images21, "2021");
 makeDataObject(20, images20, "2020");
@@ -213,7 +210,7 @@ class App extends Component {
   };
 
   render() {
-    const { t, i18n } = this.props;
+    const {t, i18n} = this.props;
     return (
       <Router>
         <div>
@@ -234,21 +231,9 @@ class App extends Component {
                 />
               )}
             />
-            <Route
-              path="/about"
-              exact
-              component={() => <About onLoad={onLoad} />}
-            />
-            <Route
-              path="/contacts"
-              exact
-              component={() => <Contacts onLoad={onLoad} />}
-            />
-            <Route
-              path="/partners"
-              exact
-              component={() => <Partneriai onLoad={onLoad} />}
-            />
+            <Route path="/about" exact component={() => <About onLoad={onLoad} />} />
+            <Route path="/contacts" exact component={() => <Contacts onLoad={onLoad} />} />
+            <Route path="/partners" exact component={() => <Partneriai onLoad={onLoad} />} />
             <Route
               path="/projects"
               exact

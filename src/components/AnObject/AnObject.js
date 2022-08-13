@@ -1,11 +1,7 @@
 import React from "react";
-import { withTranslation } from "react-i18next";
-import { useParams } from "react-router-dom";
+import {withTranslation} from "react-i18next";
 
-function AnObject({ listOfObjectsLT, t, onLoad, number, year, idTotal }) {
-  //id of the correct object
-  // let { id } = useParams();
-  console.log(number);
+function AnObject({listOfObjectsLT, t, onLoad, number, year, idTotal}) {
   const index = listOfObjectsLT.findIndex((object) => {
     return object.idTotal === idTotal;
   });
@@ -29,10 +25,6 @@ function AnObject({ listOfObjectsLT, t, onLoad, number, year, idTotal }) {
                 </div>
               );
             })}
-
-            {/* <p className="object-text">
-              {t(`listOfObjectsLT.id${listOfAdditionalPics[id].id}.text`)}
-            </p> */}
           </div>
         </div>
       </div>

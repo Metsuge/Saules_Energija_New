@@ -1,13 +1,16 @@
 .modal-img{
+    display: flex;
+    flex-direction: column;
     border: 1px solid black;
-    width: 80vw;
+    width: 55vw;
     height: auto;
-    margin:5px;
+    margin: 0 auto;
 }
 
 .modal-div{
     display: flex;
     flex-direction: column;
+    padding: 25px;
 }
 
 .button{

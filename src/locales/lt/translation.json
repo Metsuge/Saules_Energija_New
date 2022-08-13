@@ -30,79 +30,103 @@
   "test": {
     "2022": {
       "id0": {
-        "title": "9.9kW saulės elektrinė. Kauno rajonas",
+        "title": "5kW saulės elektrinė Vydžionys",
         "introtext": ""
       },
       "id1": {
-        "title": "25kW saulės elektrinė. Kaunas",
+        "title": "15kW saulės elektrinė Vilniaus rajonas",
         "introtext": ""
       },
       "id2": {
-        "title": "20kW saulės elektrinė. Molėtų rajonas",
+        "title": "10kW saulės elektrinė, Varėna",
         "introtext": ""
       },
       "id3": {
-        "title": "15.18kW saulės elektrinė. Kauno rajonas",
+        "title": "8,58kW saulės elektrinė, Lukšiai",
         "introtext": ""
       },
       "id4": {
-        "title": "10,08kW saulės elektrinė. Prienų rajonas",
+        "title": "10kW Saulės elektrinė Kaunas",
         "introtext": ""
       },
       "id5": {
-        "title": "7.92kW saulės elektrinė. Pakruojo rajonas",
-        "introtext": "7.92kW saulės elektrinė. Pakruojo rajonas"
+        "title": "20kW saulės elektrinė Kauno rajonas",
+        "introtext": ""
       },
       "id6": {
-        "title": "9,9kW saulės elektrinė. Kaunas",
+        "title": "9.9kW saulės elektrinė. Kauno rajonas",
         "introtext": ""
       },
       "id7": {
+        "title": "25kW saulės elektrinė. Kaunas",
+        "introtext": ""
+      },
+      "id8": {
+        "title": "20kW saulės elektrinė. Molėtų rajonas",
+        "introtext": ""
+      },
+      "id9": {
+        "title": "15.18kW saulės elektrinė. Kauno rajonas",
+        "introtext": ""
+      },
+      "id10": {
+        "title": "10,08kW saulės elektrinė. Prienų rajonas",
+        "introtext": ""
+      },
+      "id11": {
+        "title": "7.92kW saulės elektrinė. Pakruojo rajonas",
+        "introtext": "7.92kW saulės elektrinė. Pakruojo rajonas"
+      },
+      "id12": {
+        "title": "9,9kW saulės elektrinė. Kaunas",
+        "introtext": ""
+      },
+      "id13": {
         "title": "8,58kW saulės elektrinė Kaunas",
         "introtext": ""
       },
 
-      "id8": {
+      "id14": {
         "title": "8,25kW saulės elektrinė. Kelmės rajonas",
         "introtext": ""
       },
-      "id9": {
+      "id15": {
         "title": "9,9kW saulės elektrinė. Trakų rajonas",
         "introtext": ""
       },
-      "id10": {
+      "id16": {
         "title": "19,8kW saulės elektrinė. Marijampolė",
         "introtext": ""
       },
-      "id11": {
+      "id17": {
         "title": "18,81kW saulės elektrinė. Kaunas",
         "introtext": ""
       },
-      "id12": {
+      "id18": {
         "title": "8,91kW saulės elektrinė. Trakai",
         "introtext": ""
       },
-      "id13": {
+      "id19": {
         "title": "7,92kW saulės elektrinė. Kauno rajonas",
         "introtext": ""
       },
-      "id14": {
+      "id20": {
         "title": "13,2kW saulės elektrinė. Kaunas",
         "introtext": ""
       },
-      "id15": {
+      "id21": {
         "title": "15,84kW saulės elektrinė. Kaunas ",
         "introtext": ""
       },
-      "id16": {
+      "id22": {
         "title": "9.24kW saules elektrinė. Kauno rajonas ",
         "introtext": ""
       },
-      "id17": {
+      "id23": {
         "title": "30kW saulės elektrinė, Kauno rajonas ",
         "introtext": ""
       },
-      "id18": {
+      "id24": {
         "title": "30kW saulės elektrinė, Kauno rajonas",
         "introtext": ""
       }
