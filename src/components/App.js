@@ -1,4 +1,4 @@
-import React, {Component, useState} from "react";
+import React, {Component} from "react";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import {withTranslation} from "react-i18next";
 
@@ -32,6 +32,14 @@ const onLoad = () => {
 function importAll(r) {
   return r.keys().map(r);
 }
+
+const neatImages2022_01 = importAll(
+  require.context(
+    "../neatImages/2022/30kW_saulės_elektrinė_Kauno_rajonas",
+    false,
+    /\.(png|jpe?g|svg|JPG)$/
+  )
+);
 
 const images22_08Big = importAll(
   require.context("../images/2022.08Big/", false, /\.(png|jpe?g|svg|JPG)$/)
@@ -162,11 +170,11 @@ const makeDataBiggerObject = (nrOfProjects, importedPic, tag) => {
       idTotal: idTest++,
     });
   }
-  return listOfBiggerPics;
+  return listOfObjectsLT;
 };
 
-makeDataBiggerObject(6, images22_08Big, "2022");
-makeDataBiggerObject(19, images22, "2022");
+// makeDataBiggerObject(6, images22_08Big, "2022");
+makeDataBiggerObject(25, images22, "2022");
 makeDataBiggerObject(5, images21Big, "2021");
 makeDataBiggerObject(20, images20Big, "2020");
 makeDataBiggerObject(17, images19Big, "2019");
@@ -175,8 +183,8 @@ makeDataBiggerObject(21, images1013Big, "2010-2013");
 makeDataBiggerObject(34, images1010Big, "2000-2010");
 makeDataBiggerObject(12, images1990, "1990-2000");
 
-makeDataObject(6, images22_08, "2022");
-makeDataObject(19, images22, "2022");
+// makeDataObject(6, images22_08, "2022");
+makeDataObject(25, images22, "2022");
 makeDataObject(5, images21, "2021");
 makeDataObject(20, images20, "2020");
 makeDataObject(17, images19, "2019");
@@ -184,9 +192,10 @@ makeDataObject(20, images1318, "2013-2018");
 makeDataObject(21, images1013, "2010-2013");
 makeDataObject(34, images0010, "2000-2010");
 makeDataObject(12, images1990, "1990-2000");
-
-let newKey;
 console.log(listOfBiggerPics);
+let newKey;
+// console.log(listOfBiggerPics);
+
 //generuoja id, kad veliausias objectas turi paskutini id
 // const renameObjectIds = function(){
 //   for (let i = 0; i < listOfObjectsLT.length ; i++) {
